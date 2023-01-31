@@ -12,6 +12,13 @@ import Accomodate from './Chapter_07/Accomodate';
 import ConfirmButton from './Chapter_08/ConfirmButton';
 import LandingPage from './Chapter_09/LandingPage';
 import AttendanceBook from './Chapter_10/AttendanceBook';
+import Singup from './Chapter_11/Singup';
+import Calculator from './Chapter_12/Calculator';
+import Card from './Chapter_13/Card';
+import ProfileCard from './Chapter_13/ProfileCard';
+import MainContent from './Chapter_14/MainContent';
+import DarkOrLight from './Chapter_14/DarkOrLight';
+import Blocks from './Chapter_15/Blocks';
 
 // const root = ReactDOM.createRoot(document.getElementById("root"));
 //   root.render(
@@ -23,7 +30,7 @@ import AttendanceBook from './Chapter_10/AttendanceBook';
 
 ReactDOM.render(
   <React.StrictMode>
-    <AttendanceBook/>
+    <Blocks/>
     </React.StrictMode>,
   document.getElementById('root')
 )
